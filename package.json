@@ -1,0 +1,28 @@
+{
+  "name": "DanBot-Status-Bot",
+  "version": "0.1.0",
+  "description": "A status tracker for DanBot Tracker",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node ./src/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GamerCreator1/danbot-status-bot.git"
+  },
+  "author": "GamerCreator1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GamerCreator1/danbot-status-bot/issues"
+  },
+  "homepage": "https://github.com/GamerCreator1/danbot-status-bot#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "danbot-status": "0.0.2",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
