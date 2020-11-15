@@ -1,25 +1,30 @@
-# DanBot Hosting Status Tracker
+# DanBot Hosting Status Bot
+> DanBot Hosting Status Bot is a bot that monitors status for all status from node 1 to node 6, and the misc status, including lava status, mail, rproxy, panel and animalapi.
 
-### Made by GamerCreator1
-This bot use data from DanBot Hosting
+## Table of contents
+* [Setup](#setup)
+* [Coming Soon](#coming-soon)
 
-Looking to use this bot: 
+## Setup
+1. Download the project
+2. Install all necessary packages with `npm i`
+3. Fill out the .env file with the necessary information [here](#.env-meaning)
+4. Run the bot with `node .`
 
-- Fork this project
-- Edit .env with these stuff
-* TOKEN - Place your discord token here
-* CHANNELID - If you put your channel id in here, it will send and edited status message here, if it none, it default to none,
-* PREFIX - To use bot commands, default to this prefix`>`
+## .env Meaning
+| Name  | Description | Required | Default |
+| ------------- | :-------------: | :-------------: |:-------------:|
+| TOKEN      |The token that power the bot up, found in developer page | true | PUTDISCORDTOKENHERE |
+| CHANNELID     | Required if message id is provided    | false (unless read left) | PUTDISCORDCHANNELIDHERE |
+| MESSAGEID     | Edit the message so status can show up `CHANNELID NEEDED` if this is provided    | false (unless read left) | PUTDISCORDMESSAGEIDHERE |
+| PREFIX | To use bot commands | true | `>`
+## Code Examples
+Default prefix is `>` if your prefix is different, change `>` with your prefix
 
+`>help` - All bot command that bot might have
+`>status` - Send current status to the channel
 
-- How to start the bot? 
-1. Install all necessary packages - `npm i`
-2. Run the bot `node .`
+## Coming Soon
+* Nothing yet. lol
 
-**__Notes:__** This bot is intented for one server, as of currently
-
-Need another way to host your bot or this bot?
-
-- A free hosting services, that provided servers for users, ranging from Bots, website and games
-
-[Danbot Hosting Discord Server](https://discord.gg/dbh)
+##### Notes: This bot is intented and used for only one server, as of currently
