@@ -8,10 +8,10 @@
 ## Setup
 1. Download the project
 2. Install all necessary packages with `npm i`
-3. Fill out the .env file with the necessary information [here](#.env-meaning)
+3. Fill out the .env file with the necessary information [ For more information scroll down to .env Meanings]
 4. Run the bot with `node .`
 
-## .env Meaning
+## .env Meanings
 | Name  | Description | Required | Default |
 | ------------- | :-------------: | :-------------: |:-------------:|
 | TOKEN      |The token that power the bot up, found in developer page | true | PUTDISCORDTOKENHERE |
@@ -21,8 +21,8 @@
 ## Code Examples
 Default prefix is `>` if your prefix is different, change `>` with your prefix
 
-`>help` - All bot command that bot might have
-`>status` - Send current status to the channel
+- `>help` - All bot command that bot might have
+- `>status` - Send current status to the channel
 
 ## Coming Soon
 * Nothing yet. lol
